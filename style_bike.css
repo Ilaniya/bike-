@@ -1,0 +1,175 @@
+          @import url(reset.css);
+          .background {
+               width: 1366px;
+               height: 950px;
+               background-color: #f9f9f9;
+               /*               position: relative;*/
+          }
+
+          .container {
+               width: 1060px;
+               height: 950px;
+               box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+               margin: 0 auto;
+               padding-top: 5px;
+               background-color: white;
+          }
+
+          .logo {
+               background-image: url(logo.png);
+               width: 145px;
+               height: 40px;
+               margin-top: 40px;
+               margin-left: 50px;
+               margin-bottom: 25px;
+          }
+
+          .menuHeader {
+               width: 966px;
+               height: 35px;
+               margin: 0 auto;
+               /*
+               padding-top: 3px;
+               padding-bottom: 4px;
+*/
+               background-color: #ffffff;
+               background-image: linear-gradient(to top, #444343 0%, #5e5e5e 100%);
+               display: flex;
+               justify-content: flex-start;
+               align-items: flex-start;
+
+          }
+
+          .menuHeader > a {
+               display: block;
+               width: 140px;
+               height: 35px;
+               text-align: center;
+               text-decoration: none;
+               text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+               color: #ffffff;
+               font-family: "Open Sans";
+               font-size: 15px;
+               font-weight: 400;
+               line-height: 35px;
+               /*               margin-top: 6px;*/
+               margin-left: 25px;
+               transition: 0.4s;
+
+          }
+
+
+          .menuHeader > a:hover {
+/*               width: 140px;*/
+               border-left: 1px solid #9c9fa3;
+               border-right: 1px solid #9c9fa3;
+               background: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
+          }
+
+
+          main {
+               width: 1068px;
+               margin: 0 auto;
+               display: flex;
+               justify-content: space-between;
+               position: relative;
+          }
+
+          .containerList {
+               width: 30%;
+               /*               background-color: aqua;*/
+          }
+
+          .bike {
+               width: 70%;
+               /*                              background-color: blueviolet;*/
+          }
+
+          .main-menu {
+               width: 240px;
+               margin-top: 30px;
+               margin-left: 47px;
+               padding: 0;
+               list-style: none;
+          }
+
+          .main-menu a {
+               display: block;
+               padding: 8px 16px;
+               text-decoration: none;
+               border: 1px solid #c8c8c8;
+               font-family: "Open Sans";
+               color: #656363;
+               font-weight: 400;
+               font-size: 15px;
+               line-height: 27.33px;
+          }
+
+          .selected:hover {
+               color: #2c2c2c;
+               background-color: #f7f8f9;
+               padding-left: 30px;
+          }
+
+          .frame {
+               width: 678px;
+               height: 400px;
+               border: 1px solid #c8c8c8;
+               background-color: #ffffff;
+               margin-top: 30px;
+               margin-left: 10px;
+               background-image: url(image.png);
+               background-repeat: no-repeat;
+               background-position: center;
+          }
+
+          .imgBike {
+               width: 500px;
+               height: 307px;
+               margin: 0 auto;
+
+          }
+
+          .textAboutBike {
+               /*               background-color: chartreuse;*/
+               width: 85%;
+               align-items: center;
+               margin-left: 15px;
+               padding: 25px;
+               text-align: left;
+               line-height: 25px;
+          }
+
+          .menuFooter {
+               width: 966px;
+               height: 40px;
+               margin: 10px auto;
+               background-color: #e1e1e1;
+               display: flex;
+               justify-content: flex-start;
+          }
+
+          .menuFooter > a {
+               display: block;
+               width: 130px;
+               height: 40px;
+               text-decoration: none;
+               color: black;
+               font-family: "Open Sans";
+               font-size: 15px;
+               font-weight: 400;
+               line-height: 27.33px;
+               margin-top: 6px;
+               margin-left: 25px;
+          }
+
+          .menuFooter > a:hover {
+               text-decoration: underline;
+          }
+
+          .copyright {
+               margin-left: 160px;
+               margin-top: 10px;
+
+
+          }
